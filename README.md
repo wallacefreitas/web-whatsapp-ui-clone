@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="left">
+    <a href="https://pt-br.reactjs.org/">🔗 Web WhatsApp - UI Clone</a>
+</h1>
+<p align="left">🚀 Web apllication (Web WhatsApp) developed using NextJS + TypeScript + TailwindCSS technologies.</p>
 
-## Getting Started
+Running
+=================
 
-First, run the development server:
+#### 🧭 Running in a browser (Frontend)
 
 ```bash
-npm run dev
-# or
-yarn dev
+
+# Clone this repository
+$ git clone git@github.com:wallacefreitas/web-whatsapp-ui-clone.git
+
+# Access the folder project in your terminal/cmd
+$ cd web-whatsapp-ui-clone
+
+# Install the dependencies
+$ npm install
+
+# Run  the application in development mode
+$ npm run start
+
+# The application will open in port:3000 - go to http://localhost:3000
+
 ```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Technologies
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+The following tools were used in building the project:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+#### **Website**  ([React JS](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+-   **[TailwindCSS](https://tailwindcss.com/docs/guides/create-react-app)**
 
-## Learn More
+> See the file  [package.json](package.json)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📷 Screenshots
+<img src="./public/assets/images/web-whatsapp.gif" alt="Screenshot memory game"/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📝 License
+
+This project is under license [MIT](./LICENSE.md).
+
+Made by Wallace de Freitas 👋🏽

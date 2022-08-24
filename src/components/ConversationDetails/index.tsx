@@ -41,7 +41,7 @@ export default function ConversationDetails() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-full h-full px-24 py-6 overflow-y-auto" style={{ backgroundImage: "url('/images/background.jpg')" }}>
+      <div className="flex flex-col w-full h-full px-24 py-6 overflow-y-auto" style={{ backgroundImage: "url('/assets/images/background.jpg')" }}>
         {
           message.map( ( messageConversation, index ) => {
             const { me, message } = messageConversation;

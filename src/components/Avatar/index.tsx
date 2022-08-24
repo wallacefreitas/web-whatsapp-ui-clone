@@ -11,7 +11,7 @@ export default function Avatar( props: AvatarProps) {
 
   return (
     <div className={`rounded-full ${width} ${height}`} >
-      <Image src ={`/images/${image}`} alt="Avatar Image" width={"96px"} height={"96px"} className="rounded-full" />
+      <Image src ={`/assets/images/${image}`} alt="Avatar Image" width={"96px"} height={"96px"} className="rounded-full" />
     </div>
   )
 }
